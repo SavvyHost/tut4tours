@@ -76,10 +76,10 @@ const AttractionSection: React.FC<AttractionSectionProps> = ({
           {["Overview", "Excursions"].map((tab) => (
             <button
               key={tab}
-              className={`text-center font-segoe py-2 px-4 border-b border-b-blue-400 whitespace-nowrap ${
+              className={`text-center font-segoe py-2 px-4 border-b border-b-yellow-400 whitespace-nowrap ${
                 activeTab === tab
-                  ? "bg-blue-800 text-white border-none"
-                  : "bg-white text-gray-700 hover:bg-blue-100"
+                  ? "bg-yellow-800 text-white border-none"
+                  : "bg-white text-gray-700 hover:bg-yellow-100"
               }`}
               onClick={() => setActiveTab(tab)}
             >

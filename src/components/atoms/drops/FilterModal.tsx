@@ -158,7 +158,7 @@ const FilterModal: React.FC<FilterModalProps> = ({
           <Button
             onClick={handleApplyFilters}
             variant="contained"
-            className="bg-blue-700 hover:bg-blue-400 hover:text-black text-white"
+            className="bg-yellow-700 hover:bg-yellow-400 hover:text-black text-white"
             color="primary"
           >
             Apply Filters

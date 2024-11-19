@@ -31,37 +31,37 @@ const TourCard: React.FC<TourCardProps> = ({ icon, title, description }) => (
 const PopularTours = () => {
   const tours = [
     {
-      icon: <Waves size={30} className=" text-blue-500" />,
+      icon: <Waves size={30} className=" text-yellow-500" />,
       title: "Snorkeling and Diving Tours Giftun Island:",
       description:
         "Spend your day exploring the crystal-clear waters of the Red Sea. Our expert marine team can offer diving and snorkeling excursions around the island, helping lessons if you're new to snorkeling. Take a boat to natural beaches and explore beautiful coral reefs. Just a 45-minute boat ride, although it's a bit of a drive from Hurghada, this is one of the best diving and snorkeling spots in the Red Sea, offering an incredible variety of marine life.",
     },
     {
-      icon: <Compass size={30} className=" text-blue-500" />,
+      icon: <Compass size={30} className=" text-yellow-500" />,
       title: "Desert Safari Tours",
       description:
         "Head deep into the Western Desert on a thrilling quad bike adventure to a Bedouin village, where you can learn about the local culture and enjoy a traditional meal. Camel Safari: Experience the desert like a true Bedouin by taking a sunset through the sand dunes. Jeep Safari: A guided tour through the desert in a 4x4 vehicle, often combined with a stop at a Bedouin camp and a traditional barbecue dinner under the stars.",
     },
     {
-      icon: <Ship size={30} className=" text-blue-500" />,
+      icon: <Ship size={30} className=" text-yellow-500" />,
       title: "Boat Trips and Water Sports Paradise Island:",
       description:
         "Spend the day exploring the crystal-clear waters and beaches of Paradise Island, part of the Giftun Islands. Tours typically include snorkeling spots and lunch on the beach. Fishing Trips: The Red Sea is known for its excellent fishing spots, with several operators for deep-sea fishing tours. Glass-Bottom Boat Tours: For those who aren't up for underwater work without getting wet, a glass-bottom boat tour is a great option.",
     },
     {
-      icon: <Palmtree size={30} className=" text-blue-500" />,
+      icon: <Palmtree size={30} className=" text-yellow-500" />,
       title: "Day Trips to Luxor:",
       description:
         "Visit one or more of Egypt's greatest monuments in the Ancient Temple, Luxor Temple, the Valley of the Kings, and the Temple of Hatshepsut. The River Cruise: Enjoy views over the Nile River Valley near sunset, where you can enjoy a relaxing boat ride while soaking in the historical sites along the river.",
     },
     {
-      icon: <Waves size={30} className=" text-blue-500" />,
+      icon: <Waves size={30} className=" text-yellow-500" />,
       title: "Submarine and Semi-Submarine Boat Sindbad:",
       description:
         "Explore the underwater world of the Red Sea in a real submarine that takes you down to observe a vibrant coral garden from below the surface. Semi-Submarine: Enjoy comfortable seating while watching the marine life from below the surface, offering a unique experience in a submarine without fully submerging.",
     },
     {
-      icon: <Building size={30} className=" text-blue-500" />,
+      icon: <Building size={30} className=" text-yellow-500" />,
       title: "Cultural and City Tours Hurghada City Tour:",
       description:
         "Discover the best parts of Hurghada, including the Marina, the old town (El Dahar), and the local market. Grand Mosque Tour: Experience the Sand City sculpture park. Medieval Dinner: Enjoy a traditional Bedouin dinner in the desert, often combined with a camel ride and a cultural show.",
@@ -69,7 +69,7 @@ const PopularTours = () => {
   ];
 
   const luxuryBoatTour = {
-    icon: <ShipWheel size={30} className=" text-blue-500" />,
+    icon: <ShipWheel size={30} className=" text-yellow-500" />,
     title: "Luxurious Boat Cruises Private Yacht Hire",
     description:
       "For a more exclusive experience, you can hire a private yacht for the day, perfect for a special occasion or just a luxurious day on the water. These tours provide a variety of experiences, whether you're interested in adventure, luxury, or simply relaxing in the stunning natural surroundings.",
@@ -79,7 +79,7 @@ const PopularTours = () => {
     <div className="py-16 px-4 max-w-7xl mx-auto">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-blue-600 mb-4">
+        <h2 className="text-3xl font-bold text-yellow-600 mb-4">
           Our Popular Tours
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto">

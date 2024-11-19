@@ -5,7 +5,8 @@ import MobileMenu from "./MobileMenu";
 import DesktopMenu from "./DesktopMenu";
 import { useWishlist } from "@/contexts/wishlist-context";
 import { useRouter } from "next/router";
-
+import Image from "next/image";
+import Tut4tours from "../../../../public/assets/Tut4tours.jpg";
 export const Header = ({ header, className }: any) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -75,7 +76,11 @@ export const Header = ({ header, className }: any) => {
           {/* Logo aligned to the left */}
           <div className="flex-shrink-0 lg:w-1/3">
             <Link href="/">
-              <span className="text-xl font-bold">Tut4tours</span>
+              <Image
+                src={Tut4tours}
+                alt=""
+                className="lg:w-32 lg:h-16 w-16 h-8"
+              />
             </Link>
           </div>
 
@@ -109,7 +114,7 @@ export const Header = ({ header, className }: any) => {
 
             <Link
               href="/inquire"
-              className="bg-[#6095e4] text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-[#4a7ac7]"
+              className="bg-primary-light text-white px-4 py-2 rounded-md text-sm font-semibold hover:bg-accent-yellow"
             >
               Tailor Made{" "}
             </Link>

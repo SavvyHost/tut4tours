@@ -15,14 +15,14 @@ const ThanksInquire: React.FC<Props> = ({ onClose, message }) => {
       <div className="w-full max-w-lg bg-white shadow-lg rounded-lg p-6 relative">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-blue-500 hover:text-blue-700"
+          className="absolute top-2 right-2 text-yellow-500 hover:text-yellow-700"
         >
           <AiOutlineClose className="h-6 w-6" aria-hidden="true" />
         </button>
         <div className="my-8 text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-14 shrink-0 fill-blue-500 inline"
+            className="w-14 shrink-0 fill-yellow-500 inline"
             viewBox="0 0 512 512"
           >
             <path
@@ -35,12 +35,12 @@ const ThanksInquire: React.FC<Props> = ({ onClose, message }) => {
             />
           </svg>
 
-          <p className="text-lg font-segoe mt-4 text-blue-800">{message}</p>
+          <p className="text-lg font-segoe mt-4 text-yellow-800">{message}</p>
         </div>
         <Link
           href="/"
           type="button"
-          className="px-5 py-2.5 w-full rounded-lg text-center text-white text-sm border-none outline-none bg-blue-800 hover:bg-blue-700"
+          className="px-5 py-2.5 w-full rounded-lg text-center text-white text-sm border-none outline-none bg-yellow-800 hover:bg-yellow-700"
         >
           Got To Home Page
         </Link>

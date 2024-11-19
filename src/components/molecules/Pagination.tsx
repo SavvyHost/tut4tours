@@ -45,7 +45,7 @@ const Pagination: React.FC<PaginationProps> = ({ pageCount, onPageChange }) => {
         breakClassName={
           "inline-flex items-center justify-center px-3 py-1 bg-custom-gradient border border-gray-300 rounded-md text-gray-700"
         }
-        activeClassName={"bg-blue-500 text-white"}
+        activeClassName={"bg-yellow-500 text-white"}
         disabledClassName={"bg-gray-200 text-gray-400 cursor-not-allowed"}
       />
     </div>

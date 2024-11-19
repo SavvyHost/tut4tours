@@ -89,7 +89,7 @@ const Drops: React.FC = () => {
           <div className="flex-grow" />{" "}
           {/* This div will take up the available space */}
           <div
-            className="flex justify-center gap-x-2 cursor-pointer hover:bg-blue-200 bg-white border border-blue-400 p-2 rounded-[4px] px-3"
+            className="flex justify-center gap-x-2 cursor-pointer hover:bg-yellow-200 bg-white border border-yellow-400 p-2 rounded-[4px] px-3"
             onClick={handleOpenModal}
           >
             <div className="">Filters</div>

@@ -9,7 +9,7 @@ interface StepCardProps {
 
 const StepCard: React.FC<StepCardProps> = ({ icon, title, items }) => (
   <div className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
-    <div className="w-20 h-20 cursor-pointer rounded-full border-2 border-blue-500 flex items-center justify-center mb-4 transition-transform duration-300 hover:scale-95">
+    <div className="w-20 h-20 cursor-pointer rounded-full border-2 border-yellow-500 flex items-center justify-center mb-4 transition-transform duration-300 hover:scale-95">
       {icon}
     </div>
     <h3 className="text-xl font-bold text-gray-800 mb-4">{title}</h3>
@@ -20,7 +20,7 @@ const StepCard: React.FC<StepCardProps> = ({ icon, title, items }) => (
             <Fingerprint color="gray" />
           </div>
           <span
-            className="text-center font-medium text-base text-blue-800 "
+            className="text-center font-medium text-base text-yellow-800 "
             style={{ lineHeight: "" }}
           >
             {item}
@@ -34,7 +34,7 @@ const StepCard: React.FC<StepCardProps> = ({ icon, title, items }) => (
 const TravelPerfectionSteps = () => {
   const steps = [
     {
-      icon: <Backpack className="w-8 h-8 text-blue-500" />,
+      icon: <Backpack className="w-8 h-8 text-yellow-500" />,
       title: "Research and Plan",
       items: [
         "Create an Itinerary: Outline the major activities, sights, and experiences you want to enjoy. Include time for relaxation and spontaneity",
@@ -43,7 +43,7 @@ const TravelPerfectionSteps = () => {
       ],
     },
     {
-      icon: <Camera className="w-8 h-8 text-blue-500" />,
+      icon: <Camera className="w-8 h-8 text-yellow-500" />,
       title: "Book Essentials",
       items: [
         "Activities and Tours: Book popular options ahead of time to avoid disappointment.",
@@ -52,7 +52,7 @@ const TravelPerfectionSteps = () => {
       ],
     },
     {
-      icon: <Plane className="w-8 h-8 text-blue-500" />,
+      icon: <Plane className="w-8 h-8 text-yellow-500" />,
       title: "Prepare and Pack",
       items: [
         "Final Checks: Confirm all bookings, check the weather forecast, and make sure you have travel insurance.",
@@ -66,7 +66,7 @@ const TravelPerfectionSteps = () => {
     <div className="py-16 px-4 max-w-5xl mx-auto">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <p className="text-blue-500 font-medium mb-2">
+        <p className="text-yellow-500 font-medium mb-2">
           3 Steps For The Perfect Trip
         </p>
         <h2 className="text-3xl font-bold text-gray-900 mb-4">

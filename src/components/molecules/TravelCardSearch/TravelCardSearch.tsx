@@ -46,7 +46,7 @@ const TravelPackagePage: React.FC<TravelPackagePageProps> = ({ toursData }) => {
                       hoveredCardId === pkg.id ? "scale-105" : "scale-100"
                     }`}
                   />
-                  <div className="absolute top-3 left-3 bg-blue-500 text-white px-3 py-1 text-sm font-segoe rounded-sm shadow-md">
+                  <div className="absolute top-3 left-3 bg-yellow-500 text-white px-3 py-1 text-sm font-segoe rounded-sm shadow-md">
                     Special Offer 20%
                   </div>
                   <button className="absolute top-3 right-3 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 transition-colors duration-200 group">

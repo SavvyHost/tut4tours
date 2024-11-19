@@ -170,7 +170,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ DetailTour }) => {
         {breadcrumb.map((crumb, index) => (
           <span key={index} className="text-gray-500 font-segoe">
             {index === 0 ? (
-              <Link href="/" className="text-blue-600 hover:underline">
+              <Link href="/" className="text-yellow-600 hover:underline">
                 {crumb}
               </Link>
             ) : index === 1 ? (
@@ -180,7 +180,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ DetailTour }) => {
                     ? "/top-packages"
                     : "/top-excursions"
                 }
-                className="text-blue-600 hover:underline"
+                className="text-yellow-600 hover:underline"
               >
                 {crumb}
               </Link>

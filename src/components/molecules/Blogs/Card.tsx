@@ -44,7 +44,7 @@ const Card: React.FC<CardProps> = ({
           <p className="text-gray-800 text-[13px] font-semibold mt-4">
             {new Date(created_at).toLocaleDateString()}
           </p>
-          <span className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-blue-600 hover:bg-blue-700 text-white text-[13px] transition-colors duration-300 ease-in-out">
+          <span className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-yellow-600 hover:bg-yellow-700 text-white text-[13px] transition-colors duration-300 ease-in-out">
             Read More
           </span>
         </div>

@@ -6,7 +6,7 @@
 //   base: "border-transparent bg-transparent underline py-2",
 //   variants: {
 //     color: {
-//       primary: "text-blue-600",
+//       primary: "text-yellow-600",
 //       danger: "text-mainRed",
 //     },
 //     disabled: {

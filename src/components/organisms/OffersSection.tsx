@@ -19,7 +19,7 @@ const ViatorBenefits = () => {
   const benefits = [
     {
       icon: {
-        component: <Phone className="w-6 h-6 text-blue-900" />,
+        component: <Phone className="w-6 h-6 text-yellow-900" />,
         color: "#FADADD",
       },
       title: "24/7 customer support",
@@ -27,7 +27,7 @@ const ViatorBenefits = () => {
     },
     {
       icon: {
-        component: <Star className="w-6 h-6 text-blue-900" />,
+        component: <Star className="w-6 h-6 text-yellow-900" />,
         color: "#FFFACD",
       },
       title: "Millions of reviews",
@@ -36,7 +36,7 @@ const ViatorBenefits = () => {
     },
     {
       icon: {
-        component: <Calendar className="w-6 h-6 text-blue-900" />,
+        component: <Calendar className="w-6 h-6 text-yellow-900" />,
         color: "#F0F8FF",
       },
       title: "Plan your way",
@@ -45,7 +45,7 @@ const ViatorBenefits = () => {
     },
     {
       icon: {
-        component: <Globe className="w-6 h-6 text-blue-900" />, // New Globe icon
+        component: <Globe className="w-6 h-6 text-yellow-900" />, // New Globe icon
         color: "#E6E6FA",
       },
       title: "Worldwide destinations",
@@ -80,7 +80,7 @@ const ViatorBenefits = () => {
   return (
     <div className="py-12 px-4 max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-10">
-        Why book with Egypt Travel Lite ?
+        Why book with Egypt Tut4tours ?
       </h2>
       <div className="hidden md:block">
         {/* Grid layout for larger screens */}

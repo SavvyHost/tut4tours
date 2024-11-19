@@ -139,12 +139,12 @@ const FAQ = () => {
         backgroundImage={Faq}
         breadcrumbs={[{ text: "Home", link: "/" }, { text: "FAQ" }]}
       />
-      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-cyan-50 pt-16 lg:pt-20 px-4">
+      <div className="min-h-screen bg-gradient-to-b from-yellow-50 to-cyan-50 pt-16 lg:pt-20 px-4">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-8">
           {/* Sidebar with Mobile Carousel */}
           <aside className="lg:w-1/4 w-full">
             <div className="bg-white rounded-xl shadow-lg p-6">
-              <h2 className="text-2xl font-bold text-blue-800 mb-6">
+              <h2 className="text-2xl font-bold text-yellow-800 mb-6">
                 Egyptian Cities Guide
               </h2>
 
@@ -157,8 +157,8 @@ const FAQ = () => {
                         onClick={() => setActiveTab(index)}
                         className={`w-fit mr-3 cursor-pointer p-4 flex items-center transition-all duration-200 ${
                           activeTab === index
-                            ? "bg-blue-100 text-blue-900"
-                            : "bg-white text-gray-600 hover:bg-blue-50"
+                            ? "bg-yellow-100 text-yellow-900"
+                            : "bg-white text-gray-600 hover:bg-yellow-50"
                         }`}
                       >
                         <div className="flex flex-row items-center gap-3 w-fit">
@@ -181,8 +181,8 @@ const FAQ = () => {
                     onClick={() => setActiveTab(index)}
                     className={`w-full flex items-center gap-3 p-3 rounded-lg transition-all duration-200 ${
                       activeTab === index
-                        ? "bg-blue-100 text-blue-900"
-                        : "text-gray-600 hover:bg-blue-50"
+                        ? "bg-yellow-100 text-yellow-900"
+                        : "text-gray-600 hover:bg-yellow-50"
                     }`}
                   >
                     {section.icon}
@@ -196,7 +196,7 @@ const FAQ = () => {
           {/* Main Content */}
           <main className="lg:w-3/4">
             <div className="bg-white rounded-xl shadow-lg p-6 mb-8">
-              <h1 className="text-3xl font-bold text-blue-900 mb-6">
+              <h1 className="text-3xl font-bold text-yellow-900 mb-6">
                 {faqData[activeTab].title}
               </h1>
 
@@ -206,9 +206,9 @@ const FAQ = () => {
                   type="text"
                   placeholder="Search attractions and experiences..."
                   onChange={handleSearch}
-                  className="w-full h-12 px-4 pr-12 rounded-lg border-2 border-blue-200 focus:border-blue-400 focus:outline-none transition-colors duration-200"
+                  className="w-full h-12 px-4 pr-12 rounded-lg border-2 border-yellow-200 focus:border-yellow-400 focus:outline-none transition-colors duration-200"
                 />
-                <Search className="absolute right-4 top-3.5 h-5 w-5 text-blue-400" />
+                <Search className="absolute right-4 top-3.5 h-5 w-5 text-yellow-400" />
               </div>
 
               {/* FAQ Items */}
@@ -222,7 +222,7 @@ const FAQ = () => {
                   .map((item, index) => (
                     <div
                       key={index}
-                      className="border-b border-blue-100 last:border-0 pb-4"
+                      className="border-b border-yellow-100 last:border-0 pb-4"
                     >
                       <button
                         onClick={() => toggleQuestion(index)}
@@ -232,7 +232,7 @@ const FAQ = () => {
                           {item.question}
                         </h3>
                         <ChevronDown
-                          className={`h-5 w-5 text-blue-500 transition-transform duration-200 flex-shrink-0 ${
+                          className={`h-5 w-5 text-yellow-500 transition-transform duration-200 flex-shrink-0 ${
                             openIndex === index ? "rotate-180" : ""
                           }`}
                         />

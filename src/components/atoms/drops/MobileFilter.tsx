@@ -98,7 +98,7 @@ const MobileFilter: React.FC<MobileFilterProps> = ({
 
       <Button
         variant="outlined"
-        className="bg-blue-400 flex text-nowrap justify-between capitalize items-center gap-2 px-4 py-2 text-sm font-bold rounded-lg text-black"
+        className="bg-yellow-400 flex text-nowrap justify-between capitalize items-center gap-2 px-4 py-2 text-sm font-bold rounded-lg text-black"
         onClick={onOpenModal}
       >
         <CustomSvgIcon />

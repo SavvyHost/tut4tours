@@ -25,7 +25,7 @@ const Dropdown: React.FC<DropdownProps> = ({
       onFocus={() => setIsDropdownOpen(true)}
       onBlur={() => setTimeout(() => setIsDropdownOpen(false), 200)}
       placeholder={placeholder}
-      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500 cursor-pointer"
     />
     <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
     {isDropdownOpen && (

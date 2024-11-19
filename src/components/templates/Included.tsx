@@ -45,7 +45,7 @@ const Included: React.FC<IncludedProps> = ({ DetailTour }) => {
             {includedItems?.map((item: TourIncludeItem, index: number) => (
               <div key={index} className="flex items-center p-0">
                 <div className="flex">
-                  <div className="text-gray-700 mr-2 mt-1">
+                  <div className="text-primary-dark mr-2 mt-1">
                     <Check size={25} />
                   </div>
                   <div className="text-gray-700 font-segoe text-[18px]">
@@ -61,7 +61,7 @@ const Included: React.FC<IncludedProps> = ({ DetailTour }) => {
             {notIncludedItems?.map((item: TourIncludeItem, index: number) => (
               <div key={index} className="flex items-center">
                 <div className="flex">
-                  <div className="text-gray-500 mr-2 mt-[2px]">
+                  <div className="text-red-500 mr-2 mt-[2px]">
                     <X size={25} />
                   </div>
                   <div className="text-gray-700 flex font-segoe text-[18px]">

@@ -100,7 +100,7 @@ const WishlistPage = () => {
 
           <p className="text-gray-600 max-w-md">
             Your wishlist is empty. Browse our attractions to add some!{" "}
-            <Link href="/" className="text-blue-500 underline">
+            <Link href="/" className="text-yellow-500 underline">
               Discover More
             </Link>
           </p>

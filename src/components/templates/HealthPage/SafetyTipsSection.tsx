@@ -16,7 +16,7 @@ const SafetyTipsSection = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto py-3 px-1 bg-blue-50">
+    <div className="max-w-7xl mx-auto py-3 px-1 bg-yellow-50">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
         {/* Left Tip */}
         <div className=" p-6 ">

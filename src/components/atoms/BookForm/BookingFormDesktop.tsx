@@ -42,14 +42,14 @@ const BookingFormDesktop: React.FC<BookingFormDesktopProps> = ({
           onClick={(e) => handleWishlistClick(e, DetailTour)}
           className={`p-2 rounded-md font-semibold border transition-all duration-200 ${
             isInWishlist(DetailTour.id)
-              ? "bg-primary-light text-accent-white hover:bg-primary-dark"
-              : "bg-gray-100 text-blue-700 border-blue-700 hover:bg-gray-200"
+              ? "bg-primary-light text-accent-white hover:bg-primary-light"
+              : "bg-gray-100 text-yellow-700 hover:bg-gray-200"
           }`}
         >
           {isInWishlist(DetailTour.id) ? (
             <Heart />
           ) : (
-            <Heart className="text-primary-dark" />
+            <Heart className="text-primary-light" />
           )}
         </button>
       </div>

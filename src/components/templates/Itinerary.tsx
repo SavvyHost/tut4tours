@@ -74,7 +74,7 @@ const TourItinerary: React.FC<TourItineraryProps> = ({ DetailTour }) => {
       >
         {/* Right side - Scrollable Itinerary with Stepper */}
         <div className="w-full md:w-1/2 p-6 overflow-y-auto max-h-[600px] relative">
-          {/* <div className="absolute left-8 top-8 bottom-8 w-[2px] bg-blue-700"></div> */}
+          {/* <div className="absolute left-8 top-8 bottom-8 w-[2px] bg-yellow-700"></div> */}
           {itineraryItems.map((item: TourItineraryItem, index: number) => (
             <div key={index} className="mb-10 relative pl-12">
               <div className="absolute left-0 -ml-[5px] mt-1.5 w-7 h-7 bg-black rounded-full flex items-center justify-center text-white text-sm">
@@ -92,7 +92,7 @@ const TourItinerary: React.FC<TourItineraryProps> = ({ DetailTour }) => {
             </div>
           ))}
           <div>
-            {/* <Button className="mt-1 flex capitalize items-center px-4 py-2 border border-opacity-60 border-blue-700 bg-blue-100 text-blue-700 font-segoe text-lg rounded-md hover:bg-blue-950 hover:text-white transition-colors duration-300">
+            {/* <Button className="mt-1 flex capitalize items-center px-4 py-2 border border-opacity-60 border-yellow-700 bg-yellow-100 text-yellow-700 font-segoe text-lg rounded-md hover:bg-yellow-950 hover:text-white transition-colors duration-300">
               <FaDownload className="mr-2 text-[#389bd4]" />
               Download Brochure
             </Button> */}

@@ -86,7 +86,7 @@ const Contact = (props: Props) => {
                 </a>
               </label>
             </div>
-            <Button className="text-white w-max bg-blue-700 hover:bg-blue-400 tracking-wide rounded-md text-sm px-6 py-3 mt-4">
+            <Button className="text-white w-max bg-yellow-700 hover:bg-yellow-400 tracking-wide rounded-md text-sm px-6 py-3 mt-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16px"

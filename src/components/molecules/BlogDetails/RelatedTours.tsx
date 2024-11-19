@@ -23,7 +23,7 @@ const RelatedTours = () => {
       <div className="hidden lg:grid lg:grid-cols-1 lg:gap-4">
         {TheexcursionDataBlogs.map((excursion) => (
           <div key={excursion.id} className="">
-            <div className="flex flex-col cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out border border-transparent hover:border-blue-500 rounded-lg bg-white h-[550px]">
+            <div className="flex flex-col cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out border border-transparent hover:border-yellow-500 rounded-lg bg-white h-[550px]">
               <div className="relative h-2/3 overflow-hidden rounded-t-lg">
                 <Image
                   className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105"
@@ -55,12 +55,12 @@ const RelatedTours = () => {
                       {[1, 2, 3, 4].map((_, index) => (
                         <BsFillCircleFill
                           key={index}
-                          className="text-blue-500 w-4 h-4 ml-1"
+                          className="text-yellow-500 w-4 h-4 ml-1"
                         />
                       ))}
                       {excursion.rating % 1 !== 0 && (
                         <div className="w-4 h-4 ml-1 relative">
-                          <div className="absolute top-0 left-0 w-full h-full bg-blue-500 rounded-full clip-half"></div>
+                          <div className="absolute top-0 left-0 w-full h-full bg-yellow-500 rounded-full clip-half"></div>
                         </div>
                       )}
                       <span className="m-2 text-gray-600 text-sm">
@@ -75,7 +75,7 @@ const RelatedTours = () => {
                   </span>
                 </div>
                 <div className="mt-1">
-                  <span className="font-segoe text-xl text-blue-700">
+                  <span className="font-segoe text-xl text-yellow-700">
                     From {excursion.price}
                   </span>
                   <span className="text-gray-600 text-sm"> / Person</span>
@@ -91,7 +91,7 @@ const RelatedTours = () => {
         <Slider {...settings}>
           {TheexcursionDataBlogs.map((excursion) => (
             <div key={excursion.id} className="px-2 pb-3">
-              <div className="flex flex-col cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out border border-transparent hover:border-blue-500 rounded-lg overflow-hidden bg-white h-[500px]">
+              <div className="flex flex-col cursor-pointer hover:shadow-lg transition-all duration-300 ease-in-out border border-transparent hover:border-yellow-500 rounded-lg overflow-hidden bg-white h-[500px]">
                 <div className="relative h-2/3 overflow-hidden rounded-t-lg">
                   <Image
                     className="w-full h-full object-cover transition-transform duration-300 ease-in-out transform hover:scale-105"
@@ -123,12 +123,12 @@ const RelatedTours = () => {
                         {[1, 2, 3, 4].map((_, index) => (
                           <BsFillCircleFill
                             key={index}
-                            className="text-blue-500 w-4 h-4 ml-1"
+                            className="text-yellow-500 w-4 h-4 ml-1"
                           />
                         ))}
                         {excursion.rating % 1 !== 0 && (
                           <div className="w-4 h-4 ml-1 relative">
-                            <div className="absolute top-0 left-0 w-full h-full bg-blue-500 rounded-full clip-half"></div>
+                            <div className="absolute top-0 left-0 w-full h-full bg-yellow-500 rounded-full clip-half"></div>
                           </div>
                         )}
                         <span className="m-2 text-gray-600 text-sm">
@@ -143,7 +143,7 @@ const RelatedTours = () => {
                     </span>
                   </div>
                   <div className="mt-1">
-                    <span className="font-segoe text-xl text-blue-700">
+                    <span className="font-segoe text-xl text-yellow-700">
                       From {excursion.price}
                     </span>
                     <span className="text-gray-600 text-sm"> / Person</span>

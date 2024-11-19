@@ -17,7 +17,7 @@ const Breadcrumb: React.FC<Props> = ({ items }) => {
       <nav aria-label="Breadcrumb" className="py-3 px-4 max-w-4xl w-full">
         <ol className="flex items-center justify-center flex-wrap space-x-2 text-sm text-gray-600">
           <li>
-            <Link href="/" className="flex items-center hover:text-blue-600">
+            <Link href="/" className="flex items-center hover:text-yellow-600">
               <Home className="w-4 h-4 mr-1" />
               <span className="sr-only">Home</span>
             </Link>
@@ -30,7 +30,7 @@ const Breadcrumb: React.FC<Props> = ({ items }) => {
                   {item.label}
                 </span>
               ) : (
-                <Link href={item.href} className="hover:text-blue-600">
+                <Link href={item.href} className="hover:text-yellow-600">
                   {item.label}
                 </Link>
               )}

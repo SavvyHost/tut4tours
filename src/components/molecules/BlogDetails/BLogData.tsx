@@ -96,15 +96,15 @@ const SidebarContent: React.FC<{
       <Share2 size={20} className="text-gray-500" />
       <Facebook
         size={20}
-        className="text-blue-600 hover:text-blue-700 cursor-pointer transition-colors"
+        className="text-yellow-600 hover:text-yellow-700 cursor-pointer transition-colors"
       />
       <Twitter
         size={20}
-        className="text-blue-400 hover:text-blue-500 cursor-pointer transition-colors"
+        className="text-yellow-400 hover:text-yellow-500 cursor-pointer transition-colors"
       />
       <Linkedin
         size={20}
-        className="text-blue-700 hover:text-blue-800 cursor-pointer transition-colors"
+        className="text-yellow-700 hover:text-yellow-800 cursor-pointer transition-colors"
       />
       <Instagram
         size={20}

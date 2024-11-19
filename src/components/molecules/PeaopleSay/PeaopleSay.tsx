@@ -17,7 +17,7 @@ const cardData: ProfileCardProps[] = [
   {
     id: 1,
     name: "Sarah Nichols",
-    icon: <FaGoogle className="w-8 h-8 text-blue-500" />,
+    icon: <FaGoogle className="w-8 h-8 text-yellow-500" />,
     imgSrc: "https://www.google.com/favicon.ico",
     alt: "Google logo",
   },
@@ -31,14 +31,14 @@ const cardData: ProfileCardProps[] = [
   {
     id: 3,
     name: "Jane Smith",
-    icon: <FaFacebook className="w-8 h-8 text-blue-600" />,
+    icon: <FaFacebook className="w-8 h-8 text-yellow-600" />,
     imgSrc: "https://www.facebook.com/favicon.ico",
     alt: "Facebook logo",
   },
   {
     id: 4,
     name: "Robert Brown",
-    icon: <FaTwitter className="w-8 h-8 text-blue-400" />,
+    icon: <FaTwitter className="w-8 h-8 text-yellow-400" />,
     imgSrc: "https://www.twitter.com/favicon.ico",
     alt: "Twitter logo",
   },

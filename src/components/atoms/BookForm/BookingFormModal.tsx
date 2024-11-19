@@ -154,7 +154,7 @@ const { mutate, isPending } = useMutate({
                             : "Select a date range"
                         }
                         onClick={() => setIsDatePickerModalOpen(true)}
-                        className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-full p-3 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-yellow-500"
                       />
                     </div>
 
@@ -202,7 +202,7 @@ const { mutate, isPending } = useMutate({
 
                     <textarea
                       placeholder="Tell us More Details"
-                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500"
+                      className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-yellow-500"
                       rows={4}
                     ></textarea>
 

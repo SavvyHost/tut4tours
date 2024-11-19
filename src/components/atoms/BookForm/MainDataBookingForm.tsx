@@ -106,7 +106,7 @@ const MainDataBookingForm = ({
           <Form>
             {showValidationAlert && ""}
 
-            {/* <DatePickerInput
+            <DatePickerInput
               selectedDate={selectedDate}
               onDateChange={handleDateChange}
               isOpen={isDatePickerOpen} // Pass the prop to DatePickerInput
@@ -118,9 +118,9 @@ const MainDataBookingForm = ({
                 color: "smoke",
                 transform: "translate(14px, 8px) scale(1)",
               }}
-            /> */}
+            />
 
-            {/* <div className="mt-4 relative">
+            <div className="mt-4 relative">
               <div
                 className="hover:bg-gray-100 cursor-pointer bg-white border-2 border-gray-300 p-2 flex flex-wrap justify-around items-center text-base font-semibold rounded-lg text-gray-500"
                 onClick={() => setOpenPassengers(!openPassengers)}
@@ -172,7 +172,7 @@ const MainDataBookingForm = ({
                           onClick={() =>
                             setFieldValue(name, Math.max(min, values[name] - 1))
                           }
-                          className="p-2 bg-gray-100 text-blue-600 rounded-full flex items-center justify-center focus:outline-none hover:bg-blue-200 transition-colors"
+                          className="p-2 bg-gray-100 text-yellow-600 rounded-full flex items-center justify-center focus:outline-none hover:bg-yellow-200 transition-colors"
                         >
                           <Minus size={16} />
                         </button>
@@ -182,7 +182,7 @@ const MainDataBookingForm = ({
                           onClick={() =>
                             setFieldValue(name, Math.min(max, values[name] + 1))
                           }
-                          className="p-2 bg-gray-100 text-blue-600 rounded-full flex items-center justify-center focus:outline-none hover:bg-blue-200 transition-colors"
+                          className="p-2 bg-gray-100 text-yellow-600 rounded-full flex items-center justify-center focus:outline-none hover:bg-yellow-200 transition-colors"
                         >
                           <Plus size={16} />
                         </button>
@@ -196,7 +196,7 @@ const MainDataBookingForm = ({
                         calculateTotalPrice(values);
                       }}
                       type="button"
-                      className="w-full p-3 bg-blue-700 text-white rounded-md hover:bg-blue-900 transition duration-150"
+                      className="w-full p-3 bg-yellow-700 text-white rounded-md hover:bg-yellow-900 transition duration-150"
                     >
                       Apply
                     </button>
@@ -223,12 +223,12 @@ const MainDataBookingForm = ({
                   Discount: ${priceDetails.discount}
                 </div>
               </div>
-            )} */}
+            )}
 
             <Button
               variant="contained"
               onClick={() => handleOpenModal(values)}
-              className="mt-4 w-full bg-blue-500 hover:bg-blue-700"
+              className="mt-4 w-full bg-yellow-500 hover:bg-yellow-700"
             >
               Book Now
             </Button>
@@ -315,7 +315,7 @@ const MainDataBookingForm = ({
                       <Button
                         variant="contained"
                         onClick={() => handleConfirmBooking(values)}
-                        className="flex-1 bg-blue-700 hover:bg-blue-500"
+                        className="flex-1 bg-yellow-700 hover:bg-yellow-500"
                       >
                         Confirm
                       </Button>

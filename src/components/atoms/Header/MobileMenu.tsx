@@ -39,7 +39,7 @@ const MobileMenu = ({ isOpen, onClose, navLinks, onLanguageChange }) => {
               <li key={href}>
                 <Link
                   href={href}
-                  className="block py-2 text-gray-800 hover:text-blue-600"
+                  className="block py-2 text-gray-800 hover:text-yellow-600"
                   onClick={onClose}
                 >
                   {label}
@@ -51,7 +51,7 @@ const MobileMenu = ({ isOpen, onClose, navLinks, onLanguageChange }) => {
           {/* Language Change Button */}
           <button
             onClick={onLanguageChange}
-            className="mt-8 flex items-center text-gray-800 hover:text-blue-600"
+            className="mt-8 flex items-center text-gray-800 hover:text-yellow-600"
           >
             <Globe className="w-5 h-5 mr-2" />
             Change Language

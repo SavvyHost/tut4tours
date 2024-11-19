@@ -115,7 +115,7 @@ export default function SearchForm() {
                   />
                 </div>
                 <Button
-                  className="bg-blue-900 text-white hover:bg-blue-300 hover:text-black"
+                  className="bg-yellow-900 text-white hover:bg-yellow-300 hover:text-black"
                   fullWidth
                   onClick={handleSearch}
                 >
@@ -166,7 +166,7 @@ export default function SearchForm() {
           </div>
           <button
             onClick={handleSearchDesktop}
-            className="bg-blue-500 hover:bg-blue-600 p-4 flex items-center justify-center"
+            className="bg-yellow-500 hover:bg-yellow-600 p-4 flex items-center justify-center"
           >
             <FiSearch className="text-white text-2xl" />
           </button>

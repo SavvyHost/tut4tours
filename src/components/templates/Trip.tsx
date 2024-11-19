@@ -18,7 +18,7 @@ const TripInfo: React.FC<TripInfoProps> = ({ DetailTour }) => {
         {/* Duration Card */}
         <div className="w-full md:w-1/2 px-4 mb-4">
           <div className="flex items-center bg-white shadow-lg rounded-lg p-4">
-            <FaClock className="text-blue-500 w-8 h-8 mr-4" />
+            <FaClock className="text-primary-dark w-8 h-8 mr-4" />
             <h4 className="text-2xl font-semibold">
               Duration: {DetailTour.duration} Hours
             </h4>
@@ -28,7 +28,7 @@ const TripInfo: React.FC<TripInfoProps> = ({ DetailTour }) => {
         {/* Age Range Card */}
         <div className="w-full md:w-1/2 px-4 mb-4">
           <div className="flex items-center bg-white shadow-lg rounded-lg p-4">
-            <FaChild className="text-blue-500 w-8 h-8 mr-4" />
+            <FaChild className="text-primary-dark w-8 h-8 mr-4" />
             <h4 className="text-2xl font-semibold">
               Age Range: {DetailTour.age_range}
             </h4>
@@ -38,7 +38,7 @@ const TripInfo: React.FC<TripInfoProps> = ({ DetailTour }) => {
         {/* Run Card */}
         <div className="w-full md:w-1/2 px-4 mb-4">
           <div className="flex items-center bg-white shadow-lg rounded-lg p-4">
-            <FaFlag className="text-red-500 w-8 h-8 mr-4" />
+            <FaFlag className="text-primary-dark w-8 h-8 mr-4" />
             <h4 className="text-2xl font-semibold">Run: {DetailTour.run}</h4>
           </div>
         </div>
@@ -46,7 +46,7 @@ const TripInfo: React.FC<TripInfoProps> = ({ DetailTour }) => {
         {/* Category Card */}
         <div className="w-full md:w-1/2 px-4 mb-4">
           <div className="flex items-center bg-white shadow-lg rounded-lg p-4">
-            <FaTags className="text-yellow-500 w-8 h-8 mr-4" />
+            <FaTags className="text-primary-dark w-8 h-8 mr-4" />
             <h4 className="text-2xl font-semibold">
               Category: {DetailTour.category?.name || "No category available"}
             </h4>

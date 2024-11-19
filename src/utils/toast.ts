@@ -15,8 +15,8 @@ const toastOptions: ToastOptions_TP = {
 const STYLES = {
   success: 'text-mainred',
   error: 'bg-mainred text-white',
-  info: 'bg-blue-300 text-white',
-  loading: 'bg-blue-300 text-white',
+  info: 'bg-yellow-300 text-white',
+  loading: 'bg-yellow-300 text-white',
 };
 
 type ToastType = keyof typeof STYLES;

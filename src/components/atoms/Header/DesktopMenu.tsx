@@ -32,7 +32,7 @@ const DesktopMenu = ({ navLinks }) => {
               href={href}
               className={`font-semibold text-sm ${
                 router.pathname === href
-                  ? "text-blue-800"
+                  ? "text-yellow-800"
                   : "text-[#6095e4] hover:text-[#71a0dd] transition-colors duration-300"
               }`}
             >
@@ -53,7 +53,7 @@ const DesktopMenu = ({ navLinks }) => {
                     <li key={subLink.href} className="hover:bg-gray-100">
                       <Link
                         href={subLink.href}
-                        className="block px-4 py-2 text-sm text-gray-700 hover:text-blue-600 transition-colors duration-300"
+                        className="block px-4 py-2 text-sm text-gray-700 hover:text-yellow-600 transition-colors duration-300"
                         onClick={handleClick} // Close the dropdown when a link is clicked
                       >
                         {subLink.label}

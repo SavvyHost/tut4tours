@@ -28,15 +28,15 @@ const PricePlanCard: React.FC<{
   const getIcon = (index: number) => {
     switch (index) {
       case 0:
-        return <FaUser className="h-6 w-6 text-blue-600 m-5" />;
+        return <FaUser className="h-6 w-6 text-yellow-600 m-5" />;
       case 1:
-        return <FaUsers className="h-6 w-6 text-blue-600 m-5" />;
+        return <FaUsers className="h-6 w-6 text-yellow-600 m-5" />;
       case 2:
-        return <FaBed className="h-6 w-6 text-blue-600 m-5" />;
+        return <FaBed className="h-6 w-6 text-yellow-600 m-5" />;
       case 3:
-        return <FaHotel className="h-6 w-6 text-blue-600 m-5" />;
+        return <FaHotel className="h-6 w-6 text-yellow-600 m-5" />;
       default:
-        return <FaUser className="h-6 w-6 text-blue-600 m-5" />;
+        return <FaUser className="h-6 w-6 text-yellow-600 m-5" />;
     }
   };
 

@@ -21,7 +21,7 @@ const CancellationPolicy = () => {
           {/* Content Section */}
           <div className="p-6 md:p-8 flex-1">
             <div className="flex items-center gap-3 mb-4">
-              <FileText className="w-8 h-8 text-blue-600" />
+              <FileText className="w-8 h-8 text-yellow-600" />
               <h2 className="text-3xl font-bold font-cursive text-gray-800">
                 Cancelation Policy
               </h2>
@@ -39,16 +39,16 @@ const CancellationPolicy = () => {
               </h3>
               <ul className="space-y-2 text-gray-600 text-sm">
                 <li className="flex items-start">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 mr-2 flex-shrink-0" />
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-yellow-500 mt-1.5 mr-2 flex-shrink-0" />
                   Cancellations must be made at least 10 hours before pickup
                   time
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 mr-2 flex-shrink-0" />
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-yellow-500 mt-1.5 mr-2 flex-shrink-0" />
                   No refunds for no-shows or late cancellations
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-blue-500 mt-1.5 mr-2 flex-shrink-0" />
+                  <span className="inline-block w-1.5 h-1.5 rounded-full bg-yellow-500 mt-1.5 mr-2 flex-shrink-0" />
                   Contact our support team for assistance with cancellations
                 </li>
               </ul>

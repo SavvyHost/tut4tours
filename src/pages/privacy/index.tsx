@@ -18,7 +18,7 @@ const PrivacyPolicySection: React.FC = ({ data }) => {
         backgroundImage={PrivacyImage}
         breadcrumbs={[{ text: "Home", link: "/" }, { text: "Privacy Data" }]}
       />
-      <div className="bg-blue-100 m-10 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 font-segoe ">
+      <div className="bg-yellow-100 m-10 lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4 font-segoe ">
         <div className="grid gap-10">
           <div className="mt-4">
             <p
